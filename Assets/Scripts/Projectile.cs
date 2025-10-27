@@ -7,12 +7,8 @@ public class Projectile : MonoBehaviour
     // This is the type of entity that created the projectile.
     // The projectile is allowed to pass through this entity
     [SerializeField] public string SourceTag;
-
-
-    // Note: everything that is serialized
-    // is required in *copies* of a projectile
-    [SerializeField] public float LifeTime = 5.0f;
-    [SerializeField] public int Damage = 1;
+    [SerializeField] public float LifeTime;
+    [SerializeField] public int Damage;
     float startTime;
 
     // Start is called before the first frame update
@@ -28,10 +24,13 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
     }
 
-    public void setLifetimeAndDamage(float weaponLifetime, int weaponDamage)
+    public void Init(float weaponLifetime, int weaponDamage, string sourceTag, Vector2 velocity, Vector2 scale)
     {
         LifeTime = weaponLifetime;
         Damage = weaponDamage;
+        SourceTag = sourceTag;
+        GetComponent<Rigidbody2D>().linearVelocity = velocity;
+        transform.localScale = scale;
     }
 
     // this function is called when another object enters the projectile's collider
