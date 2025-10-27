@@ -353,6 +353,8 @@ GameObject:
   - component: {fileID: 1675739816}
   - component: {fileID: 1675739815}
   - component: {fileID: 1675739817}
+  - component: {fileID: 1675739819}
+  - component: {fileID: 1675739818}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -490,6 +492,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Entity
   MaxHealth: 10
   CurrentHealth: 0
+--- !u!114 &1675739818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675739812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b978ce5eb3dc5924f80accd6ceaf76ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  projectilePrefab: {fileID: 3482019606810571063, guid: 30f25374337e0334d9d9d690701cc9e7, type: 3}
+  ShootingSpeed: 10
+  ShootingCooldown: 0.3
+  Damage: 1
+  ProjectileLifetime: 5
+  ProjectileScale: 0.3
+--- !u!114 &1675739819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675739812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 966bb6ecd48e5724998dbff696c1bda5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
