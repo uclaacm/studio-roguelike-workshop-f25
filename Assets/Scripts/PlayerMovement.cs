@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 5f;
-    Vector2 movementDir = Vector2.zero;
+    [SerializeField] private float moveSpeed = 5f;
+    private Vector2 movementDir = Vector2.zero;
 
     void Start()
     {
