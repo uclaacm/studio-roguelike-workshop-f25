@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,9 +93,57 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: axo-env_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 76
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d07b9e4b6cad440a9dfef5bbcda795
+      internalID: 986296987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -108,8 +156,45 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":30.0},"gridSpriteOffset":{"x":16.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      axo-env_0: -687638191
+      axo-env_1: 1382697806
+      axo-env_10: -2662213
+      axo-env_11: -344264255
+      axo-env_12: -1342956588
+      axo-env_13: 1931226525
+      axo-env_14: -1300715916
+      axo-env_15: 987344654
+      axo-env_16: -645020970
+      axo-env_17: -406571492
+      axo-env_18: -1810836078
+      axo-env_19: 1422321456
+      axo-env_2: -1519605028
+      axo-env_20: 11646813
+      axo-env_21: -1823902912
+      axo-env_22: 986296987
+      axo-env_23: 653732591
+      axo-env_24: 1127450229
+      axo-env_25: -474154329
+      axo-env_26: -1781883704
+      axo-env_27: -1726797707
+      axo-env_28: -1703786460
+      axo-env_29: -273843492
+      axo-env_3: -2138018160
+      axo-env_30: -246900885
+      axo-env_31: 966703312
+      axo-env_32: 1092057807
+      axo-env_33: 464585033
+      axo-env_34: 1305537652
+      axo-env_4: 685993475
+      axo-env_5: 2027120822
+      axo-env_6: 402562163
+      axo-env_7: -935091325
+      axo-env_8: 766565578
+      axo-env_9: 128808681
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
