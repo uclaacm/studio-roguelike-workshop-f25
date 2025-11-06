@@ -107,6 +107,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
@@ -122,10 +123,13 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       name: axo-env_22
       rect:
@@ -135,6 +139,8 @@ TextureImporter:
         width: 60
         height: 60
 =======
+=======
+>>>>>>> Stashed changes
       name: axo-env_0
       rect:
         serializedVersion: 2
@@ -142,6 +148,9 @@ TextureImporter:
         y: 226
         width: 30
         height: 30
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -152,9 +161,12 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 48d07b9e4b6cad440a9dfef5bbcda795
       internalID: 986296987
 =======
+=======
+>>>>>>> Stashed changes
       spriteID: 9ec3815fac34e7d4e8722ea211e608f7
       internalID: -1404416536
       vertices: []
@@ -905,6 +917,9 @@ TextureImporter:
       bones: []
       spriteID: c77aa234cf65d4b468e21d53bdd3c487
       internalID: -1061307355
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       vertices: []
       indices: 
@@ -924,6 +939,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":30.0},"gridSpriteOffset":{"x":16.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
@@ -963,6 +979,8 @@ TextureImporter:
       axo-env_8: 766565578
       axo-env_9: 128808681
 =======
+=======
+>>>>>>> Stashed changes
         value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":9.0},"gridSpriteSize":{"x":30.0,"y":30.0},"gridSpriteOffset":{"x":16.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       axo-env_0: -1404416536
@@ -1000,6 +1018,9 @@ TextureImporter:
       axo-env_7: -1267280670
       axo-env_8: 250924654
       axo-env_9: 1099907564
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
