@@ -14,7 +14,7 @@ public class LevelChanger : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Random.Range(0, numScenes));
+            SceneManager.LoadScene(Random.Range(1, numScenes));
         }
     }
 }
