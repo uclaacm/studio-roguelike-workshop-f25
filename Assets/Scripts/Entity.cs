@@ -5,6 +5,7 @@ public class Entity : MonoBehaviour
     public int MaxHealth = 10;
     public int CurrentHealth;
     private bool dead = false;
+    [SerializeField] public int MovementSpeed = 2;
 
     private void Start()
     {

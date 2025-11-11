@@ -8,6 +8,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] public int ProjectileDamage = 1;
     [SerializeField] public float ProjectileLifetime = 5;
     [SerializeField] public float ProjectileScale = 1;
+    [SerializeField] public int Damage = 1;
 
     float lastShotTime;
 
