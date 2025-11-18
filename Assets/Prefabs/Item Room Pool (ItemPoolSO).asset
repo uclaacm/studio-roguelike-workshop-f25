@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5cb711b1d3a832409e2d2d04533c0c6, type: 3}
-  m_Name: ItemPoolSO
+  m_Name: Item Room Pool (ItemPoolSO)
   m_EditorClassIdentifier: Assembly-CSharp::ItemPoolSO
-  items: []
+  items:
+  - {fileID: 11400000, guid: c90e85960ef31f2f5ae88ea772dd6b54, type: 2}

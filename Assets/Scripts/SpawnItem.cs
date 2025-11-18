@@ -17,6 +17,7 @@ public class SpawnItem : MonoBehaviour
             return;
         } 
 
+        lowerLeft.position = new Vector2(-16, 13);
         float minX = lowerLeft.position.x;
         float maxX = upperRight.position.x;
         float minY = lowerLeft.position.y;
@@ -28,7 +29,7 @@ public class SpawnItem : MonoBehaviour
 
             GameObject prefab = itemSO.pickupPrefab;
 
-            Vector2 spawnPos = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+            Vector2 spawnPos = new Vector2(minX, minY);
 
             Instantiate(prefab, spawnPos, Quaternion.identity);
         }
