@@ -23,15 +23,18 @@ public class SpawnItem : MonoBehaviour
         float minY = lowerLeft.position.y;
         float maxY = upperRight.position.y;
 
-        for (int i = 0; i < numItemsToSpawn; i++)
+        if (itemPool.items[0] != null)
         {
-            var itemSO = itemPool.items[Random.Range(0, itemPool.items.Count)];
+            for (int i = 0; i < numItemsToSpawn; i++)
+            {
+                var itemSO = itemPool.items[Random.Range(0, itemPool.items.Count)];
 
-            GameObject prefab = itemSO.pickupPrefab;
+                GameObject prefab = itemSO.pickupPrefab;
 
-            Vector2 spawnPos = new Vector2(minX, minY);
+                Vector2 spawnPos = new Vector2(minX, minY);
 
-            Instantiate(prefab, spawnPos, Quaternion.identity);
+                Instantiate(prefab, spawnPos, Quaternion.identity);
+            }
         }
     }
 
