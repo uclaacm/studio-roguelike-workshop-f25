@@ -7,6 +7,8 @@ public class SpawnItem : MonoBehaviour
     [SerializeField] Transform upperRight;
     [SerializeField] int numItemsToSpawn;
 
+    
+
     void Start()
     {
         if (itemPool == null || lowerLeft == null || upperRight == null) 
@@ -24,7 +26,7 @@ public class SpawnItem : MonoBehaviour
         {
             var itemSO = itemPool.items[Random.Range(0, itemPool.items.Count)];
 
-            GameObject prefab = itemSO.itemPrefab;
+            GameObject prefab = itemSO.pickupPrefab;
 
             Vector2 spawnPos = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
 
